@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Interview Report</title>
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<div class="app-layout">
+
+    <!-- ================= Sidebar ================= -->
+    <aside class="sidebar">
+        <div class="logo">🤖 InterviewIQ AI </div>
+
+        <ul>
+
+            <li>
+                <a href="index.html">🏠 Home</a>
+            </li>
+
+            <li>
+                <a href="categories.html">📘 Practice Questions</a>
+            </li>
+
+            <li>
+                <a href="mockinterview.html">🎤 AI Mock Interview</a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">📊 Analytics</a>
+            </li>
+
+            <li class="active">
+                <a href="interviewreport.html">📊 Interview Report</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- ================= Main ================= -->
+    <main class="content">
+        <div class="page-header">
+
+            <h1>AI Interview Latest Report</h1>
+
+            <p>Complete analysis of your interview performance.</p>
+
+        </div>
+
+        <!-- Overall Score -->
+        <div class="overall-report">
+
+            <div class="overall-circle">
+                <span id="overallScore">0%</span>
+            </div>
+
+            <div class="overall-info">
+
+                <h2>AI Summary</h2>
+                <p id="aiSummary">Loading...</p>
+
+            </div>
+        </div>
+
+        <!-- Skill Progress -->
+        <div class="report-card">
+
+            <h2>Skill Analysis</h2>
+
+            <div class="skill">
+
+                <span>Technical</span>
+
+                <div class="progress">
+                    <div id="technicalBar" class="progress-fill"></div>
+                </div>
+
+                <span id="technicalScore">0%</span>
+
+            </div>
+
+            <div class="skill">
+
+                <span>Communication</span>
+
+                <div class="progress">
+
+                    <div id="communicationBar" class="progress-fill"></div>
+
+                </div>
+
+                <span id="communicationScore">0%</span>
+
+            </div>
+
+            <div class="skill">
+
+                <span>Grammar</span>
+
+                <div class="progress">
+                    <div id="grammarBar" class="progress-fill"></div>
+                </div>
+
+                <span id="grammarScore">0%</span>
+
+            </div>
+
+            <div class="skill">
+
+                <span>Vocabulary</span>
+
+                <div class="progress">
+                    <div id="vocabularyBar"class="progress-fill"></div>
+                </div>
+
+                <span id="vocabularyScore">0%</span>
+
+            </div>
+        </div>    
+
+        <div class="report-card">
+
+            <h2>🎤 Speech Analytics</h2>
+
+            <div class="skill">
+
+                <span>Confidence</span>
+
+                <div class="progress">
+                    <div id="confidenceSpeechBar"class="progress-fill"></div>
+                </div>
+
+                <span id="confidenceSpeech"></span>
+
+            </div>
+
+            <div class="skill">
+
+                <span>Fluency</span>
+
+                <div class="progress">
+                    <div id="fluencySpeechBar" class="progress-fill"></div>
+                </div>
+
+                <span id="fluencySpeech"></span>
+
+            </div>
+
+            <div class="skill">
+
+                <span>Speech Rate</span>
+
+                <div class="progress">
+                    <div id="speechRateBar" class="progress-fill"></div>
+                </div>
+
+                <span id="speechRateText"></span>
+
+            </div>
+
+            <div class="skill">
+
+                <span>Filler Words</span>
+
+                <div class="progress">
+                    <div id="fillerSpeechBar" class="progress-fill"></div>
+                </div>
+
+                <span id="fillerSpeech"></span>
+
+            </div>
+
+            <div class="speech-feedback">
+
+                <h3>🗣 Speech Feedback</h3>
+
+                <p id="speechFeedback"></p>
+
+            </div>
+        </div>
+
+        <!-- Strength / Improvement -->
+
+        <div class="report-grid">
+
+            <div class="report-card">
+
+                <h2>✅ Strengths</h2>
+                <ul id="strongAreas"></ul>
+
+            </div>
+
+            <div class="report-card">
+
+                <h2>📈 Improvement Areas</h2>
+                <ul id="improvementAreas"></ul>
+
+            </div>
+        </div>
+
+        <!-- Question Status -->
+
+        <div class="report-card">
+
+            <h2>Question Performance</h2>
+            <div id="questionStatus"></div>
+
+        </div>
+
+        <div class="button-group">
+
+            <button onclick="location.href='mockinterview.html'">
+                Take Another Interview
+            </button>
+
+            <button onclick="location.href='dashboard.html'">
+                Dashboard
+            </button>
+
+        </div>
+    </main>
+</div>
+
+<script src="js/interviewreport.js"></script>
+
+</body>
+</html>

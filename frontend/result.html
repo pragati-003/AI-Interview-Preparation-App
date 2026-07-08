@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Result page</title>
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<div class="app-layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">🤖 InterviewIQ AI</div>
+
+        <ul>
+            <li>
+                <a href="index.html">
+                    🏠 home
+                </a>
+            </li>
+
+            <li>
+                <a href="categories.html">
+                    📘 Practice Questions
+                </a>
+            </li>
+
+            <li>
+                <a href="mockinterview.html">
+                    🎤 AI Mock Interview
+                </a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">
+                    📊 Analytics
+                </a>
+            </li>
+
+            <li>
+                <a href="interviewreport.html">
+                    📊 Interview Report
+                </a>
+            </li>
+        </ul>
+
+    </aside>
+
+    <!-- Main -->
+    <main class="content">
+        <div class="page-header">
+            <h1>Quiz Result</h1>
+
+            <p>Review your performance. </p>
+        </div>
+
+        <!-- Score Card -->
+        <div class="result-card"> 
+        
+            <div class="score-circle">
+                <span id="percentage">0%</span>
+            </div>
+
+            <h2>Great Job!</h2>
+
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-grid">
+
+            <div class="stat-card">
+                <h3>Category</h3>
+
+                <p id="category"> - </p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Difficulty</h3>
+
+                <p id="difficulty"> - </p>
+            </div>
+
+            <div class="stat-card">
+                <h3>Correct</h3>
+
+                <p id="score">0 / 0</p>
+            </div>
+
+        </div>
+
+        <!-- Buttons -->
+        <div class="question-buttons">
+
+            <button id="retryBtn">Practice Again</button>
+
+            <button id="dashboardBtn">Dashboard</button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="js/result.js"></script>
+
+</body>
+</html>

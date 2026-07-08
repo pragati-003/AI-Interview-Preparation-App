@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard</title>
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+<div class="app-layout">
+
+    <!-- ================= Sidebar ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            🤖 InterviewIQ AI
+
+        </div>
+
+        <ul>
+
+            <li>
+
+                <a href="index.html">
+
+                    🏠 Home
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="categories.html">
+
+                    📘 Practice Questions
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="mockinterview.html">
+
+                    🎤 AI Mock Interview
+
+                </a>
+
+            </li>
+
+            <li class="active">
+
+                <a href="dashboard.html">
+
+                     📊 Analytics
+
+                </a>
+
+            </li>
+
+            <li>
+
+                <a href="interviewreport.html">
+
+                    📊 Interview Report
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- ================= Main ================= -->
+
+    <main class="content">
+
+        <div class="page-header">
+
+            <h1>
+
+                Dashboard
+
+            </h1>
+
+            <p>
+
+                Track your quiz performance and progress.
+
+            </p>
+
+        </div>
+
+        <!-- ================= Statistics ================= -->
+
+        <div class="dashboard-cards">
+
+            <div class="dashboard-card">
+
+                <div class="card-icon">
+
+                    📚
+
+                </div>
+
+                <h2 id="totalQuizzes">
+
+                    0
+
+                </h2>
+
+                <p>
+
+                    Total Quizzes
+
+                </p>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <div class="card-icon">
+
+                    📈
+
+                </div>
+
+                <h2 id="averageScore">
+
+                    0%
+
+                </h2>
+
+                <p>
+
+                    Average Score
+
+                </p>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <div class="card-icon">
+
+                    🏆
+
+                </div>
+
+                <h2 id="highestScore">
+
+                    0%
+
+                </h2>
+
+                <p>
+
+                    Highest Score
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- ================= Analytics ================= -->
+
+        <div class="analytics-grid">
+
+            <div class="analytics-card">
+
+                <h2>
+
+                    Difficulty Breakdown
+
+                </h2>
+
+                <div class="difficulty-list">
+
+                    <div>
+
+                        Easy
+
+                        <span id="easyCount">
+
+                            0
+
+                        </span>
+
+                    </div>
+
+                    <div>
+
+                        Medium
+
+                        <span id="mediumCount">
+
+                            0
+
+                        </span>
+
+                    </div>
+
+                    <div>
+
+                        Hard
+
+                        <span id="hardCount">
+
+                            0
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="analytics-card">
+
+                <h2>
+
+                    Quiz Distribution
+
+                </h2>
+
+                <canvas id="difficultyChart">
+
+                </canvas>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

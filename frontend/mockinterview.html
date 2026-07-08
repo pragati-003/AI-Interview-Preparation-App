@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>AI Mock Interview</title>
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+
+<div class="app-layout">
+
+    <!-- ================= Sidebar ================= -->
+    <aside class="sidebar">
+
+        <div class="logo">🤖 InterviewIQ AI</div>
+
+        <ul>
+            <li>
+                <a href="index.html">
+                    🏠 Home
+                </a>
+            </li>
+
+            <li>
+                <a href="categories.html">
+                    📘 Practice Questions
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="mockinterview.html">
+                    🎤 AI Mock Interview
+                </a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">
+                    📊 Analytics
+                </a>
+            </li>
+
+            <li>
+                <a href="interviewreport.html">
+                    📊 Interview Report
+                </a>
+            </li>
+        </ul>
+
+    </aside>
+
+    <!-- ================= Main ================= -->
+    <main class="content">
+        <div class="page-header">
+            <h1>AI Mock Interview</h1>
+
+            <p>Practice a real interview with AI-powered feedback.</p>
+        </div>
+
+        <div class="interview-layout">
+
+            <!-- ================= Left ================= -->
+            <div class="interview-main">
+
+                <div class="question-card">
+
+                    <div class="question-top">
+                        <span class="badge">Question
+                            <span id="questionNumber">1 / 10</span>
+                        </span>
+                    </div>
+
+                    <h2 id="question">Click "Start Interview" to begin.</h2>
+
+                </div>
+
+                <div class="recording-card">
+                    <div class="recording-status">
+                        🔴 Recording Status
+                    </div>
+
+                    <div id="timer">
+                        00:00
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button id="startInterviewBtn">
+                        Start Interview
+                    </button>
+
+                    <button id="startBtn">
+                        🎤 Start Recording
+                    </button>
+
+                    <button id="stopBtn">
+                        ⏹ Stop Recording
+                    </button>
+
+                    <button id="submitBtn">
+                        Submit Answer
+                    </button>
+                </div>
+
+                <textarea id="answer" placeholder="Your answer will appear here after speech recognition..."></textarea>
+
+                <!-- AI Loading -->
+
+                <div id="loadingSection"class="loading-section"style="display:none;">
+
+                    <div class="loading-card">
+                        <div class="loading-spinner"></div>
+
+                        <h2>🤖 AI is reviewing your answer...</h2>
+
+                        <div class="loading-item" id="step1">
+                            ⏳ Grammar
+                        </div>
+
+                        <div class="loading-item" id="step2">
+                            ⏳ Technical Skills
+                        </div>
+
+                        <div class="loading-item" id="step3">
+                            ⏳ Confidence
+                        </div>
+
+                        <div class="loading-item" id="step4">
+                            ⏳ Communication
+                        </div>
+
+                        <p id="loadingText">
+                            Preparing feedback...
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="progress-card">
+
+                    <h3>Interview Progress</h3>
+
+                    <div id="progressDots" class="progress-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+
+                <div id="feedback"></div>
+
+            </div>
+
+            <!-- ================= Right ================= -->
+            <aside class="interview-sidebar">
+
+                <div class="side-card">
+                    <h3>💡 Interview Tips</h3>
+
+                    <ul id="tipsList">
+                        <li>Speak clearly and confidently.</li>
+                        <li>Keep answers between 60–90 seconds.</li>
+                        <li>Support answers with examples.</li>
+                        <li>Maintain a logical flow.</li>
+                        <li>Avoid one-word answers.</li>
+                        <li>Mention projects whenever relevant.</li>
+                    </ul>
+
+                </div>
+
+                <div class="side-card">
+
+                    <h3>📈 Live Metrics</h3>
+
+                    <div class="metric">
+
+                        <span>Confidence</span>
+                        <strong id="confidence">--</strong>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span>Grammar</span>
+                        <strong id="grammar">--</strong>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span>Vocabulary</span>
+                        <strong id="vocabulary">--</strong>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span>Speech Rate</span>
+                        <strong id="speechRate">--</strong>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span>Fluency</span>
+                        <strong id="fluency">--</strong>
+
+                    </div>
+
+                    <div class="metric">
+
+                        <span>Filler Words</span>
+                        <strong id="fillerWords">--</strong>
+
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+    </main>
+    
+</div>
+
+<script src="js/mockinterview.js"></script>
+
+</body>
+
+</html>

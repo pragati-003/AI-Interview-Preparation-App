@@ -1,0 +1,560 @@
+[
+  {
+    "id": 1,
+    "category": "HR",
+    "difficulty": "Easy",
+    "question": "Tell me about yourself."
+  },
+  {
+    "id": 2,
+    "category": "HR",
+    "difficulty": "Easy",
+    "question": "Why should we hire you?"
+  },
+  {
+    "id": 3,
+    "category": "HR",
+    "difficulty": "Easy",
+    "question": "What are your strengths and weaknesses?"
+  },
+  {
+    "id": 4,
+    "category": "HR",
+    "difficulty": "Medium",
+    "question": "Where do you see yourself in the next five years?"
+  },
+  {
+    "id": 5,
+    "category": "HR",
+    "difficulty": "Easy",
+    "question": "Why do you want to join our company?"
+  },
+  {
+    "id": 6,
+    "category": "Java",
+    "difficulty": "Easy",
+    "question": "What is the difference between JDK, JRE, and JVM?"
+  },
+  {
+    "id": 7,
+    "category": "Java",
+    "difficulty": "Easy",
+    "question": "What is the difference between == and equals()?"
+  },
+  {
+    "id": 8,
+    "category": "Java",
+    "difficulty": "Medium",
+    "question": "Why doesn't Java use pointers?"
+  },
+  {
+    "id": 9,
+    "category": "Java",
+    "difficulty": "Easy",
+    "question": "What is the difference between Stack and Heap memory?"
+  },
+  {
+    "id": 10,
+    "category": "Java",
+    "difficulty": "Easy",
+    "question": "What is the static keyword in Java?"
+  },
+  {
+    "id": 11,
+    "category": "Java",
+    "difficulty": "Medium",
+    "question": "What is Garbage Collection in Java?"
+  },
+  {
+    "id": 12,
+    "category": "Java",
+    "difficulty": "Medium",
+    "question": "What are Lambda Expressions and Functional Interfaces?"
+  },
+  {
+    "id": 13,
+    "category": "Java",
+    "difficulty": "Medium",
+    "question": "Explain the Stream API in Java."
+  },
+  {
+    "id": 14,
+    "category": "Java",
+    "difficulty": "Medium",
+    "question": "What is the difference between checked and unchecked exceptions?"
+  },
+  {
+    "id": 15,
+    "category": "Java",
+    "difficulty": "Easy",
+    "question": "What is the difference between throw and throws?"
+  },
+  {
+    "id": 16,
+    "category": "Java",
+    "difficulty": "Medium",
+    "question": "What is an Abstract Class?"
+  },
+  {
+    "id": 17,
+    "category": "Java",
+    "difficulty": "Medium",
+    "question": "What is an Interface?"
+  },
+  {
+    "id": 18,
+    "category": "Java",
+    "difficulty": "Medium",
+    "question": "What is the difference between an Abstract Class and an Interface?"
+  },
+  {
+    "id": 19,
+    "category": "Java",
+    "difficulty": "Easy",
+    "question": "What is OOP (Object-Oriented Programming)?"
+  },
+  {
+    "id": 20,
+    "category": "OOP",
+    "difficulty": "Easy",
+    "question": "Explain the four pillars of OOP."
+  },
+  {
+    "id": 21,
+    "category": "OOP",
+    "difficulty": "Easy",
+    "question": "What is Encapsulation?"
+  },
+  {
+    "id": 22,
+    "category": "OOP",
+    "difficulty": "Easy",
+    "question": "What is Inheritance?"
+  },
+  {
+    "id": 23,
+    "category": "OOP",
+    "difficulty": "Easy",
+    "question": "What is Polymorphism?"
+  },
+  {
+    "id": 24,
+    "category": "OOP",
+    "difficulty": "Medium",
+    "question": "What is Abstraction?"
+  },
+  {
+    "id": 25,
+    "category": "OOP",
+    "difficulty": "Medium",
+    "question": "Explain the difference between Method Overloading and Method Overriding."
+  },
+  {
+    "id": 26,
+    "category": "OOP",
+    "difficulty": "Medium",
+    "question": "What is the difference between Abstraction and Encapsulation?"
+  },
+  {
+    "id": 27,
+    "category": "Collections",
+    "difficulty": "Easy",
+    "question": "What is the difference between ArrayList and LinkedList?"
+  },
+  {
+    "id": 28,
+    "category": "Collections",
+    "difficulty": "Medium",
+    "question": "How does HashMap work internally?"
+  },
+  {
+    "id": 29,
+    "category": "Collections",
+    "difficulty": "Easy",
+    "question": "What is the difference between HashMap and Hashtable?"
+  },
+  {
+    "id": 30,
+    "category": "Collections",
+    "difficulty": "Medium",
+    "question": "What is a hash collision in HashMap?"
+  },
+  {
+    "id": 31,
+    "category": "Collections",
+    "difficulty": "Hard",
+    "question": "What happens when multiple objects have the same hash code in HashMap?"
+  },
+  {
+    "id": 32,
+    "category": "Exception",
+    "difficulty": "Easy",
+    "question": "What are checked and unchecked exceptions?"
+  },
+  {
+    "id": 33,
+    "category": "Exception",
+    "difficulty": "Easy",
+    "question": "What is the difference between throw and throws?"
+  },
+  {
+    "id": 34,
+    "category": "Exception",
+    "difficulty": "Medium",
+    "question": "Explain the exception hierarchy in Java."
+  },
+  {
+    "id": 35,
+    "category": "Exception",
+    "difficulty": "Medium",
+    "question": "What are custom exceptions and when should you create them?"
+  },
+  {
+    "id": 36,
+    "category": "Multithreading",
+    "difficulty": "Easy",
+    "question": "How do you create a thread in Java?"
+  },
+  {
+    "id": 37,
+    "category": "Multithreading",
+    "difficulty": "Easy",
+    "question": "What is the difference between extending Thread and implementing Runnable?"
+  },
+  {
+    "id": 38,
+    "category": "Multithreading",
+    "difficulty": "Medium",
+    "question": "Why is multithreading faster than multiprocessing?"
+  },
+  {
+    "id": 39,
+    "category": "Multithreading",
+    "difficulty": "Medium",
+    "question": "What is synchronization in Java?"
+  },
+  {
+    "id": 40,
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "question": "What is Spring Boot?"
+  },
+  {
+    "id": 41,
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "question": "What are the advantages of Spring Boot over the Spring Framework?"
+  },
+  {
+    "id": 42,
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "question": "What is Dependency Injection?"
+  },
+  {
+    "id": 43,
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "question": "What is a Spring Bean?"
+  },
+  {
+    "id": 44,
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "question": "What is the purpose of @RestController?"
+  },
+  {
+    "id": 45,
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "question": "What is the purpose of @Autowired?"
+  },
+  {
+    "id": 46,
+    "category": "Spring Boot",
+    "difficulty": "Medium",
+    "question": "What is the difference between Spring Boot and Spring MVC?"
+  },
+  {
+    "id": 47,
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "question": "What is the purpose of application.properties?"
+  },
+  {
+    "id": 48,
+    "category": "Spring Boot",
+    "difficulty": "Easy",
+    "question": "What is Spring Initializr?"
+  },
+  {
+    "id": 49,
+    "category": "Spring Boot",
+    "difficulty": "Medium",
+    "question": "What are Microservices?"
+  },
+  {
+    "id": 50,
+    "category": "Spring Boot",
+    "difficulty": "Medium",
+    "question": "How does Spring Boot support Microservices?"
+  },
+  {
+    "id": 51,
+    "category": "SQL",
+    "difficulty": "Easy",
+    "question": "What are the different types of SQL commands?"
+  },
+  {
+    "id": 52,
+    "category": "SQL",
+    "difficulty": "Easy",
+    "question": "What is a Primary Key?"
+  },
+  {
+    "id": 53,
+    "category": "SQL",
+    "difficulty": "Easy",
+    "question": "What is a Foreign Key?"
+  },
+  {
+    "id": 54,
+    "category": "SQL",
+    "difficulty": "Medium",
+    "question": "What is Normalization?"
+  },
+  {
+    "id": 55,
+    "category": "SQL",
+    "difficulty": "Easy",
+    "question": "What is an Index?"
+  },
+  {
+    "id": 56,
+    "category": "SQL",
+    "difficulty": "Medium",
+    "question": "Explain the ACID properties."
+  },
+  {
+    "id": 57,
+    "category": "SQL",
+    "difficulty": "Easy",
+    "question": "What is a Join?"
+  },
+  {
+    "id": 58,
+    "category": "SQL",
+    "difficulty": "Medium",
+    "question": "What is a Subquery?"
+  },
+  {
+    "id": 59,
+    "category": "SQL",
+    "difficulty": "Medium",
+    "question": "What is a Stored Procedure?"
+  },
+  {
+    "id": 60,
+    "category": "SQL",
+    "difficulty": "Medium",
+    "question": "What is the difference between WHERE and HAVING?"
+  },
+  {
+    "id": 61,
+    "category": "DBMS",
+    "difficulty": "Easy",
+    "question": "What is the difference between DBMS and RDBMS?"
+  },
+  {
+    "id": 62,
+    "category": "DBMS",
+    "difficulty": "Medium",
+    "question": "Explain One-to-One, One-to-Many and Many-to-Many relationships."
+  },
+  {
+    "id": 63,
+    "category": "DBMS",
+    "difficulty": "Medium",
+    "question": "What is a transaction in DBMS?"
+  },
+  {
+    "id": 64,
+    "category": "DBMS",
+    "difficulty": "Easy",
+    "question": "What is the difference between DELETE, TRUNCATE and DROP?"
+  },
+  {
+    "id": 65,
+    "category": "DBMS",
+    "difficulty": "Hard",
+    "question": "What is the difference between Clustered Index and Non-Clustered Index?"
+  },
+  {
+    "id": 66,
+    "category": "DSA",
+    "difficulty": "Easy",
+    "question": "What is an Algorithm?"
+  },
+  {
+    "id": 67,
+    "category": "DSA",
+    "difficulty": "Easy",
+    "question": "What is a Data Structure?"
+  },
+  {
+    "id": 68,
+    "category": "DSA",
+    "difficulty": "Easy",
+    "question": "What is Time Complexity?"
+  },
+  {
+    "id": 69,
+    "category": "DSA",
+    "difficulty": "Medium",
+    "question": "Why is Binary Search faster than Linear Search?"
+  },
+  {
+    "id": 70,
+    "category": "DSA",
+    "difficulty": "Easy",
+    "question": "Write a program to reverse a string."
+  },
+  {
+    "id": 71,
+    "category": "DSA",
+    "difficulty": "Easy",
+    "question": "Write a program to check whether a number is prime."
+  },
+  {
+    "id": 72,
+    "category": "DSA",
+    "difficulty": "Easy",
+    "question": "Write a program to check whether a string is a palindrome."
+  },
+  {
+    "id": 73,
+    "category": "DSA",
+    "difficulty": "Medium",
+    "question": "Write a program to check whether two strings are anagrams."
+  },
+  {
+    "id": 74,
+    "category": "DSA",
+    "difficulty": "Medium",
+    "question": "Write a program to find the second largest element in an array."
+  },
+  {
+    "id": 75,
+    "category": "DSA",
+    "difficulty": "Medium",
+    "question": "How do you swap two numbers without using a third variable?"
+  },
+  {
+    "id": 76,
+    "category": "OS",
+    "difficulty": "Easy",
+    "question": "What is the difference between a Process and a Thread?"
+  },
+  {
+    "id": 77,
+    "category": "OS",
+    "difficulty": "Medium",
+    "question": "What is Deadlock?"
+  },
+  {
+    "id": 78,
+    "category": "OS",
+    "difficulty": "Medium",
+    "question": "What is Virtual Memory?"
+  },
+  {
+    "id": 79,
+    "category": "OS",
+    "difficulty": "Easy",
+    "question": "What is the difference between a Compiler and an Interpreter?"
+  },
+  {
+    "id": 80,
+    "category": "OS",
+    "difficulty": "Medium",
+    "question": "Why is TCP slower than UDP?"
+  },
+  {
+    "id": 81,
+    "category": "Project",
+    "difficulty": "Easy",
+    "question": "Explain your project in detail."
+  },
+  {
+    "id": 82,
+    "category": "Project",
+    "difficulty": "Easy",
+    "question": "What problem does your project solve?"
+  },
+  {
+    "id": 83,
+    "category": "Project",
+    "difficulty": "Medium",
+    "question": "Why did you choose this technology stack?"
+  },
+  {
+    "id": 84,
+    "category": "Project",
+    "difficulty": "Medium",
+    "question": "What was your role and contribution in the project?"
+  },
+  {
+    "id": 85,
+    "category": "Project",
+    "difficulty": "Medium",
+    "question": "What were the biggest challenges you faced during development?"
+  },
+  {
+    "id": 86,
+    "category": "Project",
+    "difficulty": "Medium",
+    "question": "How does the backend communicate with the frontend in your project?"
+  },
+  {
+    "id": 87,
+    "category": "Project",
+    "difficulty": "Medium",
+    "question": "How is your database designed, and why did you choose that design?"
+  },
+  {
+    "id": 88,
+    "category": "Project",
+    "difficulty": "Medium",
+    "question": "If you had more time, what improvements would you make to your project?"
+  },
+  {
+    "id": 89,
+    "category": "Project",
+    "difficulty": "Easy",
+    "question": "What did you learn while developing this project?"
+  },
+  {
+    "id": 90,
+    "category": "Project",
+    "difficulty": "Hard",
+    "question": "If the number of users increased significantly, how would you improve the scalability of your project?"
+  },
+  {
+    "id": 91,
+    "category": "DSA",
+    "difficulty": "Hard",
+    "question": "Explain the time complexity of HashMap operations."
+  },
+  {
+    "id": 92,
+    "category": "Java",
+    "difficulty": "Hard",
+    "question": "Why is String immutable in Java?"
+  },
+  {
+    "id": 93,
+    "category": "Collections",
+    "difficulty": "Hard",
+    "question": "What is the difference between Comparable and Comparator?"
+  }
+]

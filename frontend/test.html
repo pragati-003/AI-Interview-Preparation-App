@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="loadQuestions()">
+    Load Questions
+</button>
+
+<pre id="output"></pre>
+
+<script>
+
+async function loadQuestions() {
+
+    const response =
+        await fetch(
+            "http://localhost:8080/api/questions/java"
+        );
+
+    const data =
+        await response.json();
+
+    document.getElementById("output")
+        .textContent =
+        JSON.stringify(data, null, 2);
+}
+
+</script>
+
+</body>
+</html>

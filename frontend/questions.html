@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions</title>
+    <link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<div class="layout">
+
+    <!-- ================= Sidebar ================= -->
+    <aside class="sidebar">
+        <div class="logo">
+            🤖 InterviewIQ AI
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">
+                    🏠 Home
+                </a>
+            </li>
+
+            <li class="active">
+                <a href="categories.html">
+                    📘 Practice Questions
+                </a>
+            </li>
+
+            <li>
+                <a href="mockinterview.html">
+                    🎤 AI Mock Interview
+                </a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">
+                    📊 Analytics
+                </a>
+            </li>
+
+            <li>
+                <a href="interviewreport.html">
+                    📊 Interview Report
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- ================= Main ================= -->
+    <main class="content">
+        <div class="page-header"> 
+
+            <h1>
+                Practice Questions
+            </h1>
+
+            <div class="question-header">
+                <div class="badge">
+                    Category : <span id="categoryName"></span>
+                </div>
+
+                <div class="badge">
+                    Difficulty : <span id="difficultyName"></span>
+                </div>
+
+                <div class="badge">
+                    Question <span id="questionNumber">1 / 20</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Progress -->
+        <div class="progress-wrapper">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+
+        <!-- Question -->
+        <div class="question-box">
+            <h2 id="question">Loading Question... </h2>
+        </div>
+
+        <!-- Options -->
+
+        <div id="optionsContainer" class="options-grid"></div>
+
+        <!-- Buttons -->
+        <div class="question-buttons">
+            <button id="prevBtn">Previous</button>
+
+            <button id="nextBtn">Next</button>
+
+            <button id="submitBtn">Submit Quiz</button>
+        </div>
+
+    </main>
+
+</div>
+
+<script src="js/questions.js"></script>
+
+</body>
+
+</html>
